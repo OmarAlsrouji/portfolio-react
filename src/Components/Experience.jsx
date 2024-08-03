@@ -9,40 +9,44 @@ const Experience = () => {
             <div className="mb-8 flex flex-wrap lg:justify-center flex-col ">
                 
                 <div className="w-full max-w-xl lg:w-3/4 my-5 mx-auto ">
-                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.7}}className="w-full lg:w-1/4">
-                        <p className="mb-2 text-sm text-neutral-400">2023</p>
+                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.7}}className="w-full">
+                        <p className="mb-2 text-sm text-neutral-400">July 2023 - August 2023</p>
                     </motion.div>
                     <motion.h6 whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}}  className="mb-2 font-semibold">
-                        digital design - <span className='text-sm text-purple-100 '>riscv</span>
+                        Baykar Technologies - <span className='text-sm text-purple-100 '>Embedded Software Engineering Intern</span>
                     </motion.h6>
-                    <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="mb-4 text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quod odio, inventore non tempora sed architecto accusantium. Quasi, ex possimus?</motion.p>
-                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>C++</motion.span >
+                    <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="mb-4 text-neutral-400">
+                    - Developed embedded software applications with C#/.NET to interface with hardware test devices.<br/>
+                    - Created header and source files for an Integrated Circuit by translating its datasheet into C code.<br/>
+                    - Learned about Instruments, technologies, Communication protocols and Microcontrollers used in defense industries.<br/>
+                    Had the opportunity to work in a professional and demanding environment.<br/>
+                    <div className='font-bold pt-2'><a href='https://baykartech.com/en/about/'>Learn about Baykar</a></div> 
+                    </motion.p>
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>C++</motion.span>
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Embedded C</motion.span>
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>SPI</motion.span>
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>I2C</motion.span>
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>CAN bus</motion.span>
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} 
+                    className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>C#</motion.span >
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>.NET</motion.span >
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>WPF</motion.span >
                 </div>
 
                 
                 <div className="w-full max-w-xl lg:w-3/4 my-5 mx-auto ">
-                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.7}}className="w-full lg:w-1/4">
-                        <p className="mb-2 text-sm text-neutral-400">2023</p>
+                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.7}}className="w-full">
+                        <p className="mb-2 text-sm text-neutral-400">June 2024 - July 2024</p>
                     </motion.div>
                     <motion.h6 whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}}  className="mb-2 font-semibold">
-                        digital design - <span className='text-sm text-purple-100 '>riscv</span>
+                        BrainPark Uskudar University - <span className='text-sm text-purple-100 '>Embedded Software Engineering Intern</span>
                     </motion.h6>
-                    <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="mb-4 text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quod odio, inventore non tempora sed architecto accusantium. Quasi, ex possimus?</motion.p>
+                    <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="mb-4 text-neutral-400">Created a library and an application for interfacing HID USB devices using the CH375 chip.</motion.p>
                     <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>C++</motion.span >
-                </div>
-
-                
-                <div className="w-full max-w-xl lg:w-3/4 my-5 mx-auto ">
-                    <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.7}}className="w-full lg:w-1/4">
-                        <p className="mb-2 text-sm text-neutral-400">2023</p>
-                    </motion.div>
-                    <motion.h6 whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}}  className="mb-2 font-semibold">
-                        digital design - <span className='text-sm text-purple-100 '>riscv</span>
-                    </motion.h6>
-                    <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="mb-4 text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quod odio, inventore non tempora sed architecto accusantium. Quasi, ex possimus?</motion.p>
-                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>C++</motion.span >
-                </div>
-
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>USB protocol</motion.span >
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>UART</motion.span >
+                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Arduino</motion.span >
+                </div>            
 
                 
             </div>
