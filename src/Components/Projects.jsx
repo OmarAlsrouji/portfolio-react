@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4 ">
                 <h6 className='mb-2 font-semibold'>Target Shooting Robot</h6>
-                <p className='mb-4 text-neutral-400'>Building, configuring and coding a fully-functional Target shooting robot, where forward/inverse kinematics were calculated as to ensure precise action.</p>
+                <p className='mb-4 text-neutral-400'>Building, configuring and coding a fully functional target shooting robot, where forward/inverse kinematics were calculated as to ensure precise action.</p>
                 
                 <div className='flex flex-row flex-wrap'>
                     <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 '><a href='https://github.com/OmarAlsrouji/robotics-project'><span className=' rounded bg-neutral-900 text-sm font-medium text-white-800'>Learn More</span></a>   </motion.span></div>
@@ -111,7 +111,7 @@ const Projects = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4 ">
                 <h6 className='mb-2 font-semibold'>Business Website</h6>
-                <p className='mb-4 text-neutral-400'>Designed, implemented and deployed a fully responsive website for a local business in Dubai using HTML, CSS, Javascript and Bootstrap. The website is user-friendly and consice, where the customer is able to conveniently reach the contact, location, services provided by the business and information about the business.</p>
+                <p className='mb-4 text-neutral-400'>Designed, implemented and deployed a fully responsive website for a local business in Dubai using HTML, CSS, JavaScript and Bootstrap. The website is user-friendly and concise, where the customer is able to conveniently reach the contact, location, services provided by the business and information about the business.</p>
                 <div className='flex flex-row flex-wrap'>
                     <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 '><a href='https://clockandlockservices.com/'><span className=' rounded bg-neutral-900 text-sm font-medium text-white-800'>Learn More</span></a>   </motion.span></div>
                     <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>HTML</motion.span></div>
