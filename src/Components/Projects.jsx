@@ -18,11 +18,18 @@ const Projects = () => {
             <div className="w-full max-w-xl lg:w-3/4 ">
                 <h6 className='mb-2 font-semibold'>RISCV32-IMAFB / As part of the Chip Design Teknofest Competition</h6>
                 <p className='mb-4 text-neutral-400'>Designed and implemented a 5-stage-pipeline RISCV 32 bit processor with IMAFB extensions, with proper floor-planning and verification using synopsis IC compiler, the processor can be printed to a SoC (System on chip)</p>
-                <a href='https://cdn.t3kys.com/media/upload/user_form_upload/2024/7/19/1gJvWbqsDsnZkfrIuptmIa2FlSxnzSYV.pdf'><span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-white-800'>Learn More</span></a>
-                <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>RISC-V</motion.span>
-                <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Computer Architecture</motion.span>
-                <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Chip design</motion.span>
-                <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Verilog</motion.span>
+                
+                
+
+                <div className='flex flex-row flex-wrap'>
+                        <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 '><a href='https://cdn.t3kys.com/media/upload/user_form_upload/2024/7/19/1gJvWbqsDsnZkfrIuptmIa2FlSxnzSYV.pdf'><span className=' rounded bg-neutral-900 text-sm font-medium text-white-800'>Learn More</span></a>   </motion.span></div>
+                        <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>RISC-V</motion.span></div>
+                        <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Computer Architecture</motion.span></div>
+                        <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Chip Design</motion.span></div>
+                        <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Verilog</motion.span></div>
+                        
+                </div>
+
             </div>            
         </motion.div>
         <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.5}} className='mb-8 flex flex-wrap lg:justify-center'>

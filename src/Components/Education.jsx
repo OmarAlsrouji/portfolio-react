@@ -69,9 +69,15 @@ const Education = () => {
                     </motion.h6>
                     <motion.p whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="mb-4 text-neutral-400">Finished the online course with labs.
                     </motion.p>
-                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Computer Architecture</motion.span >
-                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Digital Design</motion.span >
-                    <motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Verilog</motion.span >
+                    
+
+                    <div className='flex flex-row flex-wrap'>
+                    <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Computer Architecture</motion.span></div>
+                    <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.9}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Digital Design</motion.span></div>
+                    <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1.1}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Verilog</motion.span></div>
+                    
+
+                    </div>
                 </div>
                 <div className="w-full max-w-xl lg:w-3/4 my-5 mx-auto ">
                     <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:0.7}}className="w-full">
