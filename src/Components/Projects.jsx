@@ -38,10 +38,10 @@ const Projects = () => {
             </div>
             <div className="w-full max-w-xl lg:w-3/4 ">
                 <h6 className='mb-2 font-semibold'>Quadcopter Drone / As a graduation project and part of the Agricultural Technologies Teknofest Competition</h6>
-                <p className='mb-4 text-neutral-400'>Designed and implemented a 5-stage-pipeline RISCV 32 bit processor with IMAFB extensions, with proper floor-planning and verification using synopsis IC compiler, the processor can be printed to a SoC (System on chip)</p>
+                <p className='mb-4 text-neutral-400'>Designed, Constructed and implemented a fully functional Quadcopter to be used in the teknofest competition project.</p>
                          
                  <div className='flex flex-row flex-wrap'>
-                    <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 '><a href='https://cdn.t3kys.com/media/upload/user_form_upload/2024/6/25/JTQGCqSdTuK93nvNc4u7bRDMQPDlHwgL.pdf'><span className=' rounded bg-neutral-900 text-sm font-medium text-white-800'>Learn More</span></a>   </motion.span></div>
+                    <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 '><a href='https://docs.google.com/document/d/1nJgdtxFOB9cv3t4lVmelFLnW0vIQnnx7FjmCjfpWjro/edit?usp=sharing'><span className=' rounded bg-neutral-900 text-sm font-medium text-white-800'>Learn More</span></a>   </motion.span></div>
                     <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.7}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>C++</motion.span></div>
                     <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:0.9}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>Embedded Systems</motion.span></div>
                     <div className="mb-2"><motion.span whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1.1}} className='mr-2  mt-4 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-800'>IoT</motion.span></div>
